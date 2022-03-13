@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "68634980-eye-symbol-isolated-icon-vector-illustration-design.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "68634980-eye-symbol-isolated-icon-vector-illustration-design@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "68634980-eye-symbol-isolated-icon-vector-illustration-design@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}

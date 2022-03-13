@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "bank-icon-line-courthouse-library-government-city-hall-vector-illustration-banking-isolated-white-eps-177816635.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "bank-icon-line-courthouse-library-government-city-hall-vector-illustration-banking-isolated-white-eps-177816635@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "bank-icon-line-courthouse-library-government-city-hall-vector-illustration-banking-isolated-white-eps-177816635@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}
