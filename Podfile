@@ -11,7 +11,8 @@ target 'Minty' do
 
   target 'MintyTests' do
     inherit! :search_paths
-    # Pods for testing
+    
+    pod 'SnapshotTesting'
   end
 
   target 'MintyUITests' do

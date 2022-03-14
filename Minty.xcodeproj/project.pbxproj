@@ -10,6 +10,9 @@
 		3AD94FD8DA28FEA1565A255D /* Pods_MintyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1F99DE03460550BC4DC3E8 /* Pods_MintyTests.framework */; };
 		81B914937DCC0A6A4183920A /* Pods_Minty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C585767380AAD6907F9723 /* Pods_Minty.framework */; };
 		C65D95246C1768D90F4FF6C1 /* Pods_Minty_MintyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0446D3C6526C7277D1E37F6E /* Pods_Minty_MintyUITests.framework */; };
+		EC2003D427DFAF8B00D2F331 /* LegalViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2003C027DFAF8B00D2F331 /* LegalViewControllerTests.swift */; };
+		EC2003D527DFAF8B00D2F331 /* SettingsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2003C127DFAF8B00D2F331 /* SettingsViewControllerTests.swift */; };
+		EC2003D627DFAF8B00D2F331 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2003C227DFAF8B00D2F331 /* LoginViewControllerTests.swift */; };
 		EC30942327DBB24A00DEA6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30942227DBB24A00DEA6AB /* AppDelegate.swift */; };
 		EC30942527DBB24A00DEA6AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30942427DBB24A00DEA6AB /* SceneDelegate.swift */; };
 		EC30942727DBB24A00DEA6AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30942627DBB24A00DEA6AB /* LoginViewController.swift */; };
@@ -60,6 +63,10 @@
 		2A90BA67D669C134CF9C1B70 /* Pods-MintyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyTests.debug.xcconfig"; path = "Target Support Files/Pods-MintyTests/Pods-MintyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		84C7729F31897DE788E65292 /* Pods-Minty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minty.debug.xcconfig"; path = "Target Support Files/Pods-Minty/Pods-Minty.debug.xcconfig"; sourceTree = "<group>"; };
 		A1C585767380AAD6907F9723 /* Pods_Minty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2003BB27DFADF600D2F331 /* SnapshotTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapshotTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2003C027DFAF8B00D2F331 /* LegalViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalViewControllerTests.swift; sourceTree = "<group>"; };
+		EC2003C127DFAF8B00D2F331 /* SettingsViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewControllerTests.swift; sourceTree = "<group>"; };
+		EC2003C227DFAF8B00D2F331 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
 		EC30941F27DBB24A00DEA6AB /* Minty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC30942227DBB24A00DEA6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC30942427DBB24A00DEA6AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +127,7 @@
 		2C9367A3D04CE930D9E806B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC2003BB27DFADF600D2F331 /* SnapshotTesting.framework */,
 				A1C585767380AAD6907F9723 /* Pods_Minty.framework */,
 				0446D3C6526C7277D1E37F6E /* Pods_Minty_MintyUITests.framework */,
 				FB1F99DE03460550BC4DC3E8 /* Pods_MintyTests.framework */,
@@ -138,6 +146,17 @@
 				1361F630FD3D59D80D99EE0F /* Pods-MintyTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC2003BF27DFAF8B00D2F331 /* Snapshot Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2003C027DFAF8B00D2F331 /* LegalViewControllerTests.swift */,
+				EC2003C127DFAF8B00D2F331 /* SettingsViewControllerTests.swift */,
+				EC2003C227DFAF8B00D2F331 /* LoginViewControllerTests.swift */,
+			);
+			name = "Snapshot Tests";
+			path = "../../../../../Downloads/My tests/Snapshot Tests";
 			sourceTree = "<group>";
 		};
 		EC30941627DBB24A00DEA6AB = {
@@ -239,6 +258,7 @@
 		ECB2569727DF954800FCC0BE /* MintyTests */ = {
 			isa = PBXGroup;
 			children = (
+				EC2003BF27DFAF8B00D2F331 /* Snapshot Tests */,
 				ECB256B427DF958400FCC0BE /* Network Service Tests */,
 				ECB256B627DF958400FCC0BE /* Unit Tests */,
 			);
@@ -300,6 +320,7 @@
 				ECB2569227DF954800FCC0BE /* Sources */,
 				ECB2569327DF954800FCC0BE /* Frameworks */,
 				ECB2569427DF954800FCC0BE /* Resources */,
+				EB187D85F67F330E4CA27342 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -480,6 +501,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EB187D85F67F330E4CA27342 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintyTests/Pods-MintyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintyTests/Pods-MintyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintyTests/Pods-MintyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FB1E536E9FBF060BE042EEA6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -532,7 +570,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB256C827DF958400FCC0BE /* NetworkServiceTests.swift in Sources */,
+				EC2003D527DFAF8B00D2F331 /* SettingsViewControllerTests.swift in Sources */,
 				ECB256C927DF958400FCC0BE /* FormValidatorTests.swift in Sources */,
+				EC2003D627DFAF8B00D2F331 /* LoginViewControllerTests.swift in Sources */,
+				EC2003D427DFAF8B00D2F331 /* LegalViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
