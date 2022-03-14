@@ -42,6 +42,22 @@ class FormValidatorTests: XCTestCase {
         // Then
         XCTAssertEqual(error?.localizedDescription, FormError.invalidPhone.localizedDescription)
     }
-   
     
+    func testValidPassword() {
+        // given
+        let password = "password"
+        //when
+        let error = FormValidator.validPassword(password)
+        //then
+        XCTAssertNil(error)
+    }
+    
+    func testInvalidPassword() {
+        //given
+        let password = "passwordd"
+        //when
+        let error = FormValidator.validPassword(password)
+        //then
+        XCTAssertNil(error)
+    }
 }

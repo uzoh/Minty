@@ -18,17 +18,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mf0-4F-NP9">
-                                <rect key="frame" x="82" y="315" width="250" height="266"/>
+                                <rect key="frame" x="132" y="358" width="150" height="180"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="96f-0O-UuR">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="250" id="Ohj-1C-oRA"/>
-                                            <constraint firstAttribute="width" constant="250" id="SiL-PF-C3M"/>
+                                            <constraint firstAttribute="height" constant="150" id="Ohj-1C-oRA"/>
+                                            <constraint firstAttribute="width" constant="150" id="SiL-PF-C3M"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINTY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s00-Iq-twR">
-                                        <rect key="frame" x="76" y="250" width="98.5" height="16"/>
+                                        <rect key="frame" x="26" y="150" width="98.5" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="EdF-AA-sYG"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="30"/>
                                         <color key="textColor" name="black_white"/>
                                         <nil key="highlightedColor"/>

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ProgressHUD
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var phoneField: UITextField!
@@ -55,12 +56,12 @@ class LoginViewController: UIViewController {
         guard let phone = phoneField.text,
               let password = passwordTextField.text else { return }
         if let error = FormValidator.validPhone(phone) {
-            // show error
+            ProgressHUD.showError("Invalid Phone Number")
             return
         }
         
         if let error = FormValidator.validPassword(password) {
-            // show error
+            ProgressHUD.showError("Invalid Password")
             return
         }
         
@@ -68,6 +69,7 @@ class LoginViewController: UIViewController {
     }
     
     private func login(phone: String, password: String) {
+        ProgressHUD.show()
         NetworkService.shared.login(phone: phone, password: password) { [weak self] success in
             if success {
                 if self?.rememberMe ?? false {
@@ -75,8 +77,9 @@ class LoginViewController: UIViewController {
                     UserDefaults.standard.synchronize()
                 }
                 self?.goToDashboard()
+                ProgressHUD.dismiss()
             } else {
-                // show error
+                ProgressHUD.showError("Error!!! check credientials")
             }
         }
     }

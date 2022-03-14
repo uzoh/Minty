@@ -13,9 +13,9 @@ class LegalViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet weak var tableView: UITableView!
     
     var itemArray: [LegalItem] = [
-        .init(title: "Mintyn Account - Terms & Conditions", url: "https://google.com"),
-        .init(title: "Minty Privacy Policy", url: "https://apple.com"),
-        .init(title: "Saving Goal - Terms & Conditions", url: "https://facebook.com")
+        .init(title: "Mintyn Account - Terms & Conditions", url: "https://mintyn.com/terms"),
+        .init(title: "Minty Privacy Policy", url: "https://mintyn.com/privacy-policy"),
+        .init(title: "Saving Goal - Terms & Conditions", url: "https://mintyn.com/terms")
     ]
     
     override func viewDidLoad() {

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AD94FD8DA28FEA1565A255D /* Pods_MintyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1F99DE03460550BC4DC3E8 /* Pods_MintyTests.framework */; };
+		81B914937DCC0A6A4183920A /* Pods_Minty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C585767380AAD6907F9723 /* Pods_Minty.framework */; };
+		C65D95246C1768D90F4FF6C1 /* Pods_Minty_MintyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0446D3C6526C7277D1E37F6E /* Pods_Minty_MintyUITests.framework */; };
 		EC30942327DBB24A00DEA6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30942227DBB24A00DEA6AB /* AppDelegate.swift */; };
 		EC30942527DBB24A00DEA6AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30942427DBB24A00DEA6AB /* SceneDelegate.swift */; };
 		EC30942727DBB24A00DEA6AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30942627DBB24A00DEA6AB /* LoginViewController.swift */; };
 		EC30942A27DBB24A00DEA6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC30942827DBB24A00DEA6AB /* Main.storyboard */; };
 		EC30942C27DBB24D00DEA6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC30942B27DBB24D00DEA6AB /* Assets.xcassets */; };
 		EC30942F27DBB24D00DEA6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC30942D27DBB24D00DEA6AB /* LaunchScreen.storyboard */; };
-		EC30943A27DBB24E00DEA6AB /* MintyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30943927DBB24E00DEA6AB /* MintyTests.swift */; };
-		EC30944427DBB24E00DEA6AB /* MintyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30944327DBB24E00DEA6AB /* MintyUITests.swift */; };
-		EC30944627DBB24E00DEA6AB /* MintyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30944527DBB24E00DEA6AB /* MintyUITestsLaunchTests.swift */; };
 		EC30945527DBCE1000DEA6AB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30945427DBCE1000DEA6AB /* UIView+Extensions.swift */; };
 		EC3B8AD027DCA6990088D6A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B8ACF27DCA6990088D6A1 /* HomeViewController.swift */; };
 		EC3BAD5627DDD9A7006277B8 /* SystemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3BAD5527DDD9A7006277B8 /* SystemTableViewCell.swift */; };
@@ -28,17 +28,21 @@
 		EC6A04D127DD08B600DE01E1 /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A04D027DD08B600DE01E1 /* SystemViewController.swift */; };
 		EC6A04D327DD292500DE01E1 /* LegalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A04D227DD292500DE01E1 /* LegalTableViewCell.swift */; };
 		EC6A04D527DD2C2A00DE01E1 /* LegalItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A04D427DD2C2A00DE01E1 /* LegalItem.swift */; };
+		ECB256C827DF958400FCC0BE /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB256B527DF958400FCC0BE /* NetworkServiceTests.swift */; };
+		ECB256C927DF958400FCC0BE /* FormValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB256B727DF958400FCC0BE /* FormValidatorTests.swift */; };
+		ECB256D127DF972C00FCC0BE /* MintyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB256D027DF972C00FCC0BE /* MintyUITests.swift */; };
+		ECB256D327DF972C00FCC0BE /* MintyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB256D227DF972C00FCC0BE /* MintyUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EC30943627DBB24E00DEA6AB /* PBXContainerItemProxy */ = {
+		ECB2569A27DF954800FCC0BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC30941727DBB24A00DEA6AB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EC30941E27DBB24A00DEA6AB;
 			remoteInfo = Minty;
 		};
-		EC30944027DBB24E00DEA6AB /* PBXContainerItemProxy */ = {
+		ECB256D427DF972C00FCC0BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC30941727DBB24A00DEA6AB /* Project object */;
 			proxyType = 1;
@@ -48,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0446D3C6526C7277D1E37F6E /* Pods_Minty_MintyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minty_MintyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07193DA60B99EE9487C41549 /* Pods-Minty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minty.release.xcconfig"; path = "Target Support Files/Pods-Minty/Pods-Minty.release.xcconfig"; sourceTree = "<group>"; };
+		0AA9F0430C29CBABF4DAFB5C /* Pods-Minty-MintyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minty-MintyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Minty-MintyUITests/Pods-Minty-MintyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1361F630FD3D59D80D99EE0F /* Pods-MintyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyTests.release.xcconfig"; path = "Target Support Files/Pods-MintyTests/Pods-MintyTests.release.xcconfig"; sourceTree = "<group>"; };
+		16CDCC4C0A37096547D0D17B /* Pods-Minty-MintyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minty-MintyUITests.release.xcconfig"; path = "Target Support Files/Pods-Minty-MintyUITests/Pods-Minty-MintyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A90BA67D669C134CF9C1B70 /* Pods-MintyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintyTests.debug.xcconfig"; path = "Target Support Files/Pods-MintyTests/Pods-MintyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84C7729F31897DE788E65292 /* Pods-Minty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minty.debug.xcconfig"; path = "Target Support Files/Pods-Minty/Pods-Minty.debug.xcconfig"; sourceTree = "<group>"; };
+		A1C585767380AAD6907F9723 /* Pods_Minty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC30941F27DBB24A00DEA6AB /* Minty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC30942227DBB24A00DEA6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC30942427DBB24A00DEA6AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,11 +68,6 @@
 		EC30942B27DBB24D00DEA6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC30942E27DBB24D00DEA6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC30943027DBB24D00DEA6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC30943527DBB24E00DEA6AB /* MintyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC30943927DBB24E00DEA6AB /* MintyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintyTests.swift; sourceTree = "<group>"; };
-		EC30943F27DBB24E00DEA6AB /* MintyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC30944327DBB24E00DEA6AB /* MintyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintyUITests.swift; sourceTree = "<group>"; };
-		EC30944527DBB24E00DEA6AB /* MintyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EC30945427DBCE1000DEA6AB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		EC3B8ACF27DCA6990088D6A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EC3BAD5527DDD9A7006277B8 /* SystemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTableViewCell.swift; sourceTree = "<group>"; };
@@ -73,6 +80,13 @@
 		EC6A04D027DD08B600DE01E1 /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
 		EC6A04D227DD292500DE01E1 /* LegalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalTableViewCell.swift; sourceTree = "<group>"; };
 		EC6A04D427DD2C2A00DE01E1 /* LegalItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalItem.swift; sourceTree = "<group>"; };
+		ECB2569627DF954800FCC0BE /* MintyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB256B527DF958400FCC0BE /* NetworkServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		ECB256B727DF958400FCC0BE /* FormValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormValidatorTests.swift; sourceTree = "<group>"; };
+		ECB256CE27DF972C00FCC0BE /* MintyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB256D027DF972C00FCC0BE /* MintyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintyUITests.swift; sourceTree = "<group>"; };
+		ECB256D227DF972C00FCC0BE /* MintyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB1F99DE03460550BC4DC3E8 /* Pods_MintyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,33 +94,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B914937DCC0A6A4183920A /* Pods_Minty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC30943227DBB24E00DEA6AB /* Frameworks */ = {
+		ECB2569327DF954800FCC0BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD94FD8DA28FEA1565A255D /* Pods_MintyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC30943C27DBB24E00DEA6AB /* Frameworks */ = {
+		ECB256CB27DF972C00FCC0BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65D95246C1768D90F4FF6C1 /* Pods_Minty_MintyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C9367A3D04CE930D9E806B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C585767380AAD6907F9723 /* Pods_Minty.framework */,
+				0446D3C6526C7277D1E37F6E /* Pods_Minty_MintyUITests.framework */,
+				FB1F99DE03460550BC4DC3E8 /* Pods_MintyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB79D5BC2FA3632E41A4EE90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C7729F31897DE788E65292 /* Pods-Minty.debug.xcconfig */,
+				07193DA60B99EE9487C41549 /* Pods-Minty.release.xcconfig */,
+				0AA9F0430C29CBABF4DAFB5C /* Pods-Minty-MintyUITests.debug.xcconfig */,
+				16CDCC4C0A37096547D0D17B /* Pods-Minty-MintyUITests.release.xcconfig */,
+				2A90BA67D669C134CF9C1B70 /* Pods-MintyTests.debug.xcconfig */,
+				1361F630FD3D59D80D99EE0F /* Pods-MintyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC30941627DBB24A00DEA6AB = {
 			isa = PBXGroup;
 			children = (
 				EC30942127DBB24A00DEA6AB /* Minty */,
-				EC30943827DBB24E00DEA6AB /* MintyTests */,
-				EC30944227DBB24E00DEA6AB /* MintyUITests */,
+				ECB2569727DF954800FCC0BE /* MintyTests */,
+				ECB256CF27DF972C00FCC0BE /* MintyUITests */,
 				EC30942027DBB24A00DEA6AB /* Products */,
+				BB79D5BC2FA3632E41A4EE90 /* Pods */,
+				2C9367A3D04CE930D9E806B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,8 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				EC30941F27DBB24A00DEA6AB /* Minty.app */,
-				EC30943527DBB24E00DEA6AB /* MintyTests.xctest */,
-				EC30943F27DBB24E00DEA6AB /* MintyUITests.xctest */,
+				ECB2569627DF954800FCC0BE /* MintyTests.xctest */,
+				ECB256CE27DF972C00FCC0BE /* MintyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,23 +179,6 @@
 				EC30943027DBB24D00DEA6AB /* Info.plist */,
 			);
 			path = Minty;
-			sourceTree = "<group>";
-		};
-		EC30943827DBB24E00DEA6AB /* MintyTests */ = {
-			isa = PBXGroup;
-			children = (
-				EC30943927DBB24E00DEA6AB /* MintyTests.swift */,
-			);
-			path = MintyTests;
-			sourceTree = "<group>";
-		};
-		EC30944227DBB24E00DEA6AB /* MintyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EC30944327DBB24E00DEA6AB /* MintyUITests.swift */,
-				EC30944527DBB24E00DEA6AB /* MintyUITestsLaunchTests.swift */,
-			);
-			path = MintyUITests;
 			sourceTree = "<group>";
 		};
 		EC30945327DBCDF700DEA6AB /* Extensions */ = {
@@ -211,6 +236,40 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		ECB2569727DF954800FCC0BE /* MintyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB256B427DF958400FCC0BE /* Network Service Tests */,
+				ECB256B627DF958400FCC0BE /* Unit Tests */,
+			);
+			path = MintyTests;
+			sourceTree = "<group>";
+		};
+		ECB256B427DF958400FCC0BE /* Network Service Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB256B527DF958400FCC0BE /* NetworkServiceTests.swift */,
+			);
+			path = "Network Service Tests";
+			sourceTree = "<group>";
+		};
+		ECB256B627DF958400FCC0BE /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB256B727DF958400FCC0BE /* FormValidatorTests.swift */,
+			);
+			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		ECB256CF27DF972C00FCC0BE /* MintyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB256D027DF972C00FCC0BE /* MintyUITests.swift */,
+				ECB256D227DF972C00FCC0BE /* MintyUITestsLaunchTests.swift */,
+			);
+			path = MintyUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC30944927DBB24E00DEA6AB /* Build configuration list for PBXNativeTarget "Minty" */;
 			buildPhases = (
+				C380593C0D6A48B357793A35 /* [CP] Check Pods Manifest.lock */,
 				EC30941B27DBB24A00DEA6AB /* Sources */,
 				EC30941C27DBB24A00DEA6AB /* Frameworks */,
 				EC30941D27DBB24A00DEA6AB /* Resources */,
+				57153866A8F8221509D2093E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,40 +292,43 @@
 			productReference = EC30941F27DBB24A00DEA6AB /* Minty.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EC30943427DBB24E00DEA6AB /* MintyTests */ = {
+		ECB2569527DF954800FCC0BE /* MintyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC30944C27DBB24E00DEA6AB /* Build configuration list for PBXNativeTarget "MintyTests" */;
+			buildConfigurationList = ECB2569E27DF954800FCC0BE /* Build configuration list for PBXNativeTarget "MintyTests" */;
 			buildPhases = (
-				EC30943127DBB24E00DEA6AB /* Sources */,
-				EC30943227DBB24E00DEA6AB /* Frameworks */,
-				EC30943327DBB24E00DEA6AB /* Resources */,
+				FB1E536E9FBF060BE042EEA6 /* [CP] Check Pods Manifest.lock */,
+				ECB2569227DF954800FCC0BE /* Sources */,
+				ECB2569327DF954800FCC0BE /* Frameworks */,
+				ECB2569427DF954800FCC0BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC30943727DBB24E00DEA6AB /* PBXTargetDependency */,
+				ECB2569B27DF954800FCC0BE /* PBXTargetDependency */,
 			);
 			name = MintyTests;
 			productName = MintyTests;
-			productReference = EC30943527DBB24E00DEA6AB /* MintyTests.xctest */;
+			productReference = ECB2569627DF954800FCC0BE /* MintyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EC30943E27DBB24E00DEA6AB /* MintyUITests */ = {
+		ECB256CD27DF972C00FCC0BE /* MintyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC30944F27DBB24E00DEA6AB /* Build configuration list for PBXNativeTarget "MintyUITests" */;
+			buildConfigurationList = ECB256D827DF972C00FCC0BE /* Build configuration list for PBXNativeTarget "MintyUITests" */;
 			buildPhases = (
-				EC30943B27DBB24E00DEA6AB /* Sources */,
-				EC30943C27DBB24E00DEA6AB /* Frameworks */,
-				EC30943D27DBB24E00DEA6AB /* Resources */,
+				C97BE623BDAF12BCD9E7072E /* [CP] Check Pods Manifest.lock */,
+				ECB256CA27DF972C00FCC0BE /* Sources */,
+				ECB256CB27DF972C00FCC0BE /* Frameworks */,
+				ECB256CC27DF972C00FCC0BE /* Resources */,
+				8932C9099A9905066A786F89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC30944127DBB24E00DEA6AB /* PBXTargetDependency */,
+				ECB256D527DF972C00FCC0BE /* PBXTargetDependency */,
 			);
 			name = MintyUITests;
 			productName = MintyUITests;
-			productReference = EC30943F27DBB24E00DEA6AB /* MintyUITests.xctest */;
+			productReference = ECB256CE27DF972C00FCC0BE /* MintyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -280,11 +344,11 @@
 					EC30941E27DBB24A00DEA6AB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					EC30943427DBB24E00DEA6AB = {
+					ECB2569527DF954800FCC0BE = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = EC30941E27DBB24A00DEA6AB;
 					};
-					EC30943E27DBB24E00DEA6AB = {
+					ECB256CD27DF972C00FCC0BE = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = EC30941E27DBB24A00DEA6AB;
 					};
@@ -304,8 +368,8 @@
 			projectRoot = "";
 			targets = (
 				EC30941E27DBB24A00DEA6AB /* Minty */,
-				EC30943427DBB24E00DEA6AB /* MintyTests */,
-				EC30943E27DBB24E00DEA6AB /* MintyUITests */,
+				ECB2569527DF954800FCC0BE /* MintyTests */,
+				ECB256CD27DF972C00FCC0BE /* MintyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,14 +385,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC30943327DBB24E00DEA6AB /* Resources */ = {
+		ECB2569427DF954800FCC0BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC30943D27DBB24E00DEA6AB /* Resources */ = {
+		ECB256CC27DF972C00FCC0BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,6 +400,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57153866A8F8221509D2093E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minty/Pods-Minty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minty/Pods-Minty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Minty/Pods-Minty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8932C9099A9905066A786F89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minty-MintyUITests/Pods-Minty-MintyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minty-MintyUITests/Pods-Minty-MintyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Minty-MintyUITests/Pods-Minty-MintyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C380593C0D6A48B357793A35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97BE623BDAF12BCD9E7072E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minty-MintyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1E536E9FBF060BE042EEA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC30941B27DBB24A00DEA6AB /* Sources */ = {
@@ -360,35 +527,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC30943127DBB24E00DEA6AB /* Sources */ = {
+		ECB2569227DF954800FCC0BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC30943A27DBB24E00DEA6AB /* MintyTests.swift in Sources */,
+				ECB256C827DF958400FCC0BE /* NetworkServiceTests.swift in Sources */,
+				ECB256C927DF958400FCC0BE /* FormValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC30943B27DBB24E00DEA6AB /* Sources */ = {
+		ECB256CA27DF972C00FCC0BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC30944627DBB24E00DEA6AB /* MintyUITestsLaunchTests.swift in Sources */,
-				EC30944427DBB24E00DEA6AB /* MintyUITests.swift in Sources */,
+				ECB256D327DF972C00FCC0BE /* MintyUITestsLaunchTests.swift in Sources */,
+				ECB256D127DF972C00FCC0BE /* MintyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC30943727DBB24E00DEA6AB /* PBXTargetDependency */ = {
+		ECB2569B27DF954800FCC0BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EC30941E27DBB24A00DEA6AB /* Minty */;
-			targetProxy = EC30943627DBB24E00DEA6AB /* PBXContainerItemProxy */;
+			targetProxy = ECB2569A27DF954800FCC0BE /* PBXContainerItemProxy */;
 		};
-		EC30944127DBB24E00DEA6AB /* PBXTargetDependency */ = {
+		ECB256D527DF972C00FCC0BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EC30941E27DBB24A00DEA6AB /* Minty */;
-			targetProxy = EC30944027DBB24E00DEA6AB /* PBXContainerItemProxy */;
+			targetProxy = ECB256D427DF972C00FCC0BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -530,17 +698,19 @@
 		};
 		EC30944A27DBB24E00DEA6AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C7729F31897DE788E65292 /* Pods-Minty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RT459C64W3;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Minty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,17 +728,19 @@
 		};
 		EC30944B27DBB24E00DEA6AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07193DA60B99EE9487C41549 /* Pods-Minty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RT459C64W3;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Minty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -584,16 +756,14 @@
 			};
 			name = Release;
 		};
-		EC30944D27DBB24E00DEA6AB /* Debug */ = {
+		ECB2569C27DF954800FCC0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A90BA67D669C134CF9C1B70 /* Pods-MintyTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RT459C64W3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = interview.MintyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -604,16 +774,14 @@
 			};
 			name = Debug;
 		};
-		EC30944E27DBB24E00DEA6AB /* Release */ = {
+		ECB2569D27DF954800FCC0BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1361F630FD3D59D80D99EE0F /* Pods-MintyTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RT459C64W3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = interview.MintyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -624,13 +792,12 @@
 			};
 			name = Release;
 		};
-		EC30945027DBB24E00DEA6AB /* Debug */ = {
+		ECB256D627DF972C00FCC0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA9F0430C29CBABF4DAFB5C /* Pods-Minty-MintyUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RT459C64W3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = interview.MintyUITests;
@@ -642,13 +809,12 @@
 			};
 			name = Debug;
 		};
-		EC30945127DBB24E00DEA6AB /* Release */ = {
+		ECB256D727DF972C00FCC0BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CDCC4C0A37096547D0D17B /* Pods-Minty-MintyUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RT459C64W3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = interview.MintyUITests;
@@ -681,20 +847,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC30944C27DBB24E00DEA6AB /* Build configuration list for PBXNativeTarget "MintyTests" */ = {
+		ECB2569E27DF954800FCC0BE /* Build configuration list for PBXNativeTarget "MintyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC30944D27DBB24E00DEA6AB /* Debug */,
-				EC30944E27DBB24E00DEA6AB /* Release */,
+				ECB2569C27DF954800FCC0BE /* Debug */,
+				ECB2569D27DF954800FCC0BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC30944F27DBB24E00DEA6AB /* Build configuration list for PBXNativeTarget "MintyUITests" */ = {
+		ECB256D827DF972C00FCC0BE /* Build configuration list for PBXNativeTarget "MintyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC30945027DBB24E00DEA6AB /* Debug */,
-				EC30945127DBB24E00DEA6AB /* Release */,
+				ECB256D627DF972C00FCC0BE /* Debug */,
+				ECB256D727DF972C00FCC0BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
