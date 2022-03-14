@@ -1422,7 +1422,7 @@ that puts you in control.</string>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="HhQ-Ib-bO4" firstAttribute="leading" secondItem="PLh-26-oRM" secondAttribute="leading" id="2mB-0y-PoP"/>
                                     <constraint firstAttribute="bottom" secondItem="HhQ-Ib-bO4" secondAttribute="bottom" id="gUn-Yt-CYZ"/>
