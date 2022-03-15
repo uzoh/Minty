@@ -28,7 +28,7 @@ Password: `password`
 
 ### Improvements
 - Create reusable designs for certain components including (Buttons, TextField, etc)
-- Improve design responsveness of the Login page for smaller devices so that no fields are hidden. Options includ:
+- Improve design responsiveness of the Login page for smaller devices so that no fields are hidden. Options include:
     - Reducing the size of the navigation cards (Open Account, Contact Support etc) so that the bottom sheet content fits all screens
     - Add a scrollview to the bottom sheet so that it scrolls on smaller devices.
 
